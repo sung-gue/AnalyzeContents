@@ -25,9 +25,9 @@ release.properties
 pom.xml.*
 
 # Eclipse
-.classpath
-.project
-.settings/
+#.classpath
+#.project
+#.settings/
 .metadata/
 
 # OS X
