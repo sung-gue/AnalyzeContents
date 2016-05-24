@@ -29,6 +29,7 @@ pom.xml.*
 #.project
 #.settings/
 .metadata/
+classes/
 
 # OS X
 .DS_Store
