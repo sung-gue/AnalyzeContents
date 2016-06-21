@@ -102,7 +102,7 @@ public class AnalyzeHannanum implements ServletContextAware {
 
             workflow.activateWorkflow(true);
 
-            _logger.error("[{}-{}({}:initWorkflow)] init end", new Object[] {
+            _logger.info("[{}-{}({}:initWorkflow)] complete", new Object[] {
                     request.getRemoteAddr(), request.getRequestURI(), request.getMethod()
             });
         }
